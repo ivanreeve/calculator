@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(0deg, purple, rgb(59, 4, 148));
+    display:flex;
+    font-family: sans-serif;
+    font-display: swap;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid white;
+    padding: 20px 19px 0px 20px;
+    align-items: center;
+    height: 395px;
+    width: 220px;
+    border-radius: 4px;
+}
+
+.display{
+    padding: 10px;
+    margin: 2px;
+    background-color: white;
+    color: rgb(51, 2, 92);
+    font-size: 40px;
+    text-align: right;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.display #buffer{
+    font-size: small;
+    color: gray;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.display #field{
+    font-weight: bold;
+}
+
+.calc-buttons{
+    padding: 20px 0;
+}
+
+.calc-button-row{
+    padding: 2px;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 50px;
+    width: 50px;
+    border-radius: 0;
+    border: 0;
+    font-size: medium;
+    border-radius: 2px;
+    transition: background-color 0.1s ease;
+    font-weight: bold;
+    color: rgb(51, 2, 92);
+}
+
+button:last-child{
+    background: rgba(255, 255, 255, 0.7);
+}
+
+button:hover{
+    background-color: rgb(110, 55, 161);
+    color: white;
+}
+
+button:active{
+    background-color: rgb(149, 75, 218);
+    color: white;
+}
+
+#equals{
+    width: 104px;
+    background-color: rgb(51, 2, 92);
+    color: white;
+}
+
+#equals:hover{
+    background-color: rgb(110, 55, 161);
+}
+
+#equals:active{
+    background-color: rgb(149, 75, 218);
+}
+
+#clearAll{
+    width: 104px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#clearAll:hover{
+    background-color: rgb(110, 55, 161);
+}
+
+#clearAll:active{
+    background-color: rgb(149, 75, 218);
+}
+
+#backspace{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#backspace:hover{
+    background-color: rgb(110, 55, 161);
+}
+
+#backspace:active{
+    background-color: rgb(149, 75, 218);
+}
