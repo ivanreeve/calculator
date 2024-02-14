@@ -9,4 +9,4 @@ This project was inspired by my desire to strengthen my JavaScript skills and ga
 # 📷 Display
 ![Display](images/ui.png)
 
-🔗 <b>Try it out:<\b> https://ivanreeve.github.io/vanilla-js-calculator/
+🔗 <b>Try it out:</b> https://ivanreeve.github.io/vanilla-js-calculator/
