@@ -7,6 +7,6 @@ The calculator allows users to perform basic arithmetic operations such as addit
 This project was inspired by my desire to strengthen my JavaScript skills and gain hands-on experience with DOM manipulation and event handling.
 
 # 📷 Display
-![user-interface](images/ui.png)
+<img src="images/ui.png" alt="Display" style="width:300px;" />
 
 🔗 Try it out: https://ivanreeve.github.io/vanilla-js-calculator/
