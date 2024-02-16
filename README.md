@@ -9,3 +9,6 @@ This project was inspired by my desire to strengthen my JavaScript skills and ga
 ![Display](images/ui.png)
 
 🔗 <b>Try it out:</b> https://ivanreeve.github.io/vanilla-js-calculator/
+
+## License
+This project is licensed under the [MIT License](LICENSE).
