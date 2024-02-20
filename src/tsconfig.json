@@ -1,16 +1,15 @@
 {
-    "compilerOptions": {
-      "lib": ["es6", "dom", "es7"],       
-      "module":"es6",
-      "strict": true,
-      "pretty":true,
-      "forceConsistentCasingInFileNames": true,
-      "declaration":false,
-      "noLib":false,
-      "noImplicitAny":true,
-      "noImplicitReturns":false,
-      "noImplicitUseStrict":false,
-      "listFiles": false
-    }
+  "compilerOptions": {
+    "lib": ["es6", "dom", "es2016"],      
+    "module":"es6",
+    "strict": true,
+    "pretty":true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration":false,
+    "noLib":false,
+    "noImplicitAny":true,
+    "noImplicitReturns":false,
+    "noImplicitUseStrict":false,
+    "listFiles": false
   }
-  
+}
