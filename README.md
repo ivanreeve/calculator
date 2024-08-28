@@ -1,5 +1,5 @@
 # Vanilla JS Calculator
-A simple calculator project built using vanilla JS with Typescript.
+A simple calculator project written in vanilla JS with Typescript.
 
 ## 📷 Screenshot
 ![Display](images/ui.png)
