@@ -80,8 +80,14 @@ function calculate() {
         if (buffer) {
             if (isLastCharacterOperator())
                 calc.setBuffer(eval(buffer.slice(0, -1)));
-            else
-                calc.setBuffer(eval(buffer));
+            else {
+                if (eval(buffer) === 143) {
+                    calc.setBuffer("mariela cutie<3");
+                }
+                else {
+                    calc.setBuffer(eval(buffer));
+                }
+            }
         }
         clearField();
     }
